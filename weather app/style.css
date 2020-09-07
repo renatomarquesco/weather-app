@@ -1,0 +1,242 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background: rgb(19, 49, 83);
+}
+
+.current-weather {
+    color: #e9e8e8;
+    border-radius: 10px;
+    border: 0.1px solid #e9e8e8;
+}
+
+.navbar-toggler {
+    color: #e9e8e8
+}
+
+.name {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.div-current-temperature {
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#icon-span {
+    margin-top: 0;
+
+}
+
+.more-info {
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.icon-current {
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.div-icon {
+    padding: 0;
+}
+
+.div-date {
+    margin-top: 30px;
+}
+
+.min-max {
+    margin-top: 30px
+}
+
+.icon-forecast {
+    /* border:1px solid black; */
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+#search-input {
+    padding-left: 10px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-bottom: 0.2px solid gray;
+    width: 50%;
+    height: 31px;
+    margin-right: 10px;
+    outline: none;
+    background:rgb(19, 49, 83);
+}
+
+.dropdown-menu {
+    border: none;
+    background:rgb(19, 49, 83);
+
+}
+
+#search-btn {
+    background-color:rgb(19, 49, 83);
+    color: white;
+    height: 30px;
+    padding: 2px;
+}
+
+
+.new-div {
+    margin-top: 0px;
+    border-bottom: 0.5px solid rgb(233, 232, 232);
+    color: rgb(233, 232, 232);
+    max-height: 120px;
+    overflow: hidden;
+}
+
+.new-div:hover{
+    background: rgb(35, 68, 105);
+    transform: scale(0.98);
+    transition: all 0.3s linear 0.3s;
+}
+
+.open {
+    margin-top: 0px;
+    border-bottom: 0.5px solid rgb(233, 232, 232);
+    color: rgb(233, 232, 232);
+    max-height: 1000px;
+    transition: max-height 1.5s linear 0s;
+    color: rgb(233, 232, 232)
+}
+
+.div-description {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.container-general {
+    padding: 7px;
+}
+
+.img-search {
+    margin-top: 12px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media(max-width:800px) {
+    .icon-forecast {
+        width: 80%;
+        margin-left: 10px;
+        margin-top: 7px;
+    }
+
+    .div-sens {
+        text-align: center;
+    }
+
+    .span-humid {
+        text-align: left !important;
+    }
+
+    .div-humid {
+        text-align: center;
+    }
+
+    .new-div {
+
+        margin-top: 5px;
+        border-bottom: 0.5px solid rgb(233, 232, 232);
+        color: rgb(233, 232, 232);
+        max-height: 105px;
+        overflow: hidden;
+    }
+
+    .open {
+        margin-top: 5px;
+        border-bottom: 0.5px solid rgb(233, 232, 232);
+        color: rgb(233, 232, 232);
+        max-height: 1000px;
+        transition: max-height 1.5s linear 0s;
+        color: rgb(233, 232, 232)
+    }
+
+    .img-drop-search {
+        width: 10%;
+    }
+
+    .logo {
+        width: 45%;
+    }
+
+
+    /* .favicon {
+        width: 60%;
+        margin-left: -3.5%;
+        margin-top: 18px;
+    }
+
+    .div-favicon {
+        width: 40px;
+        margin-left: -30px;
+    }
+
+    .favicon2 {
+        width: 60%;
+        margin-left: -3.5%;
+        margin-top: 18px;
+    } */
+
+}
+
+.new-div div {
+    margin-bottom: 30px;
+}
+
+.open div {
+    margin-bottom: 30px;
+}
+
+@media(min-width:801px) {
+    .div-icon {
+        text-align: center;
+    }
+
+    /* .new-div {
+        border: 1px solid black;
+        margin-top: 20px;
+        border-radius: 10px;
+        padding-top: 15px;
+    } */
+
+    .img-drop-search {
+        width: 2%;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    /* .favicon {
+        width: 70%;
+        margin-left: -3.5%;
+        margin-top: 15px;
+    }
+
+    .favicon2 {
+        width: 70%;
+        margin-left: -3.5%;
+        margin-top: 15px;
+    }
+
+    .div-favicon {
+        width: 40px;
+        margin-left: -30px;
+    } */
+
+}
